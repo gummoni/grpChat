@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -6,7 +6,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\grpcProto\grpcChatProto.csproj" />
+    <ProjectReference Include="..\grpcSimpleBotProto\grpcSimpleBotProto.csproj" />
+    <ProjectReference Include="..\grpcSimpleChatProto\grpcSimpleChatProto.csproj" />
   </ItemGroup>
 
 </Project>
