@@ -1,0 +1,13 @@
+﻿syntax = "proto3";
+
+service SimpleBot {
+	rpc DelaySend (DelaySendRequest) returns (DelaySendReply);
+}
+
+message DelaySendRequest {
+	string name = 1;
+}
+
+message DelaySendReply {
+	string Message = 1;
+}

@@ -5,11 +5,9 @@ VisualStudioVersion = 16.0.29920.165
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "grpcChatClient", "grpcChatClient\grpcChatClient.csproj", "{4A723063-FEC1-4DC3-B4CC-DFC1760203FA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "grpcSimpleChatProto", "grpcSimpleChatProto\grpcSimpleChatProto.csproj", "{03CAFDEF-E589-4E63-AB4E-98EA4F556854}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "grpcChatServer", "grpcChatServer\grpcChatServer.csproj", "{0E14A178-557F-405D-99EC-97778FAD9A37}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "grpcSimpleBotProto", "grpcSimpleBotProto\grpcSimpleBotProto.csproj", "{FA71D35D-8DC1-4784-A51A-5611973C3DDF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "grpcService", "grpcService\grpcService.csproj", "{735C9581-4503-492D-B7E8-196F8A9A0C83}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,18 +19,14 @@ Global
 		{4A723063-FEC1-4DC3-B4CC-DFC1760203FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A723063-FEC1-4DC3-B4CC-DFC1760203FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A723063-FEC1-4DC3-B4CC-DFC1760203FA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{03CAFDEF-E589-4E63-AB4E-98EA4F556854}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{03CAFDEF-E589-4E63-AB4E-98EA4F556854}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{03CAFDEF-E589-4E63-AB4E-98EA4F556854}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{03CAFDEF-E589-4E63-AB4E-98EA4F556854}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0E14A178-557F-405D-99EC-97778FAD9A37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0E14A178-557F-405D-99EC-97778FAD9A37}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E14A178-557F-405D-99EC-97778FAD9A37}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E14A178-557F-405D-99EC-97778FAD9A37}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FA71D35D-8DC1-4784-A51A-5611973C3DDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FA71D35D-8DC1-4784-A51A-5611973C3DDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FA71D35D-8DC1-4784-A51A-5611973C3DDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FA71D35D-8DC1-4784-A51A-5611973C3DDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{735C9581-4503-492D-B7E8-196F8A9A0C83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{735C9581-4503-492D-B7E8-196F8A9A0C83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{735C9581-4503-492D-B7E8-196F8A9A0C83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{735C9581-4503-492D-B7E8-196F8A9A0C83}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

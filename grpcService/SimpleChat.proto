@@ -1,0 +1,21 @@
+﻿syntax = "proto3";
+
+service SimpleChat {
+	rpc Join (JoinRequest) returns (stream JoinReply);
+	rpc Send (SendRequest) returns (Empty);
+}
+
+message Empty {
+}
+
+message JoinRequest {
+	string name = 1;
+}
+
+message JoinReply {
+	string Message = 1;
+}
+
+message SendRequest {
+	string message = 1;
+}

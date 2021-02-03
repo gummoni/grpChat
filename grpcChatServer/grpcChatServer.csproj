@@ -6,8 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\grpcSimpleBotProto\grpcSimpleBotProto.csproj" />
-    <ProjectReference Include="..\grpcSimpleChatProto\grpcSimpleChatProto.csproj" />
+    <ProjectReference Include="..\grpcService\grpcService.csproj" />
   </ItemGroup>
 
 </Project>
